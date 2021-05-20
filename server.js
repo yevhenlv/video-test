@@ -24,3 +24,18 @@ io.on('connection', (socket) => {
 });
 
 server.listen(3000);
+
+// config: {"iceServers": [
+      
+//   {
+//     "iceTransportPolicy": "relay",
+//     "urls": "stun:62.138.7.233:3478"
+//   },
+//   {
+//     "iceTransportPolicy": "relay",
+//     "urls": "turn:62.138.7.233:3478",
+//     "username": "ninefingers",
+//     "credential": "youhavetoberealistic"
+//   }
+// ],
+// }
